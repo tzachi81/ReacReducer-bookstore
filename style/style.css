@@ -1,0 +1,7 @@
+.list-group-item {
+    cursor: pointer;
+}
+
+ul.list-group *:hover{
+    background-color: #eee;
+}
