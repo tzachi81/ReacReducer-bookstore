@@ -7,7 +7,7 @@ class BookDetail extends Component {
       return (
           <div>
           <h3>Book Details</h3>
-          <p>Please select a book to get its details </p>
+          <p className="book-details">Please select a book to get its details </p>
           </div>
           );
     }
@@ -15,7 +15,7 @@ class BookDetail extends Component {
     return (
       <div>
       <h3>Book Details</h3>
-      <div>{this.props.book.title}  <i>by {this.props.book.author}</i></div>
+      <div className="book-details">{this.props.book.title}  <i>by {this.props.book.author}</i></div>
       </div>
   );
   }
